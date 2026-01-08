@@ -203,6 +203,7 @@ gap: 10px;
 .challenge{
     background: rgba(247, 246, 242, 1);
     border-radius: 12px;
+    margin-top: 80px;
 }
 .challenge-text{
     display: flex;
@@ -222,4 +223,30 @@ gap: 10px;
 }
 .early{
     margin-top: 10px;
+}
+footer{
+    background-color: rgba(0, 25, 49, 1);
+    min-height: 18vh;
+    margin-top: 50px;
+}
+.social{
+    color: white;
+}
+.endGame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px;
+}
+footer hr{
+    max-width: 80%;
+    color: rgba(229, 231, 235, 1);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
 }
