@@ -111,7 +111,7 @@ gap: 10px;
 }
 .btn-secondery:hover{
     color: #30B868;
-    border: 1px solid#30B868;
+    border: 2px solid#30B868;
 }
 .btn-container{
     display: flex;
@@ -147,10 +147,6 @@ gap: 10px;
     align-items: center;
     gap: 16px;
     padding: 50px 30px;
-}
-.card:hover{
-    border: 2px solid #30B868;
-    border-radius: 10px;
 }
 .card h4{
     font-size: 24px;
