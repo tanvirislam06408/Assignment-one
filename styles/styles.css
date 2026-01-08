@@ -115,3 +115,47 @@ gap: 10px;
     justify-content: center;
     gap: 30px;
 }
+/* note section related styles */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.text-note{
+    text-align: center;
+    margin: 44px 0 70px 0;
+}
+.text-note h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.text-note p{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+.card{
+    box-sizing: border-box;
+    max-width: 332px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 50px 30px;
+}
+.card h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card p{
+    font-size: 16px;
+    color: rgba(98, 115, 130, 1);
+}
+.card img{
+    width: 35px;
+    background-color:  rgba(249, 85, 85, 1);
+    border-radius: 100px;
+    padding: 15px;
+}
